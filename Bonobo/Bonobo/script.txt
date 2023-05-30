@@ -1,2 +1,2 @@
 bonobo init demo
-bonobo inspect --graph demo.py | dot -Tpng -o demo.png
+python3.8 -m bonobo inspect --graph demo.py | dot -Tpng -o demo.png
